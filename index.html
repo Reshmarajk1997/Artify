@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your JavaScript Playground</title>
+    
+    <link rel="icon" href="path/to/your/favicon.ico" />
+
+    <script type="module" crossorigin src="/Artify/assets/index.c0ea34d5.js"></script>
+    <link rel="stylesheet" href="/Artify/assets/index.cfcbc38a.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navMainText">
+          <span>Artify</span>
+      </div>
+      <div class="navText">
+          <span class="topText " id="classicArts"><button>Classic Arts</button></span>
+          <span class="topText" id="modernArts"><button>Modern Arts</button></span>
+          <span class="topText" id="sculptures"><button>Sculptures</button></span>
+          <span class="topText" id="traditionalArts"><button>Traditional Arts</button></span>
+          <span class="topText" id="favourites"><button>Favourites</button></span>
+          <span class="topText">Login</span>
+      </div>
+  </nav>
+    <div id="photoContainer"></div>
+    <div id="imageModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImg">
+      <div id="imageDetails">
+        <p id="artistName"></p>
+        <p id="description"></p>
+        <!-- <p id="tags"></p> -->
+         <button id="addToFavourites">Add to Favourites</button>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
