@@ -12,5 +12,7 @@ export default defineConfig({
   },
   build: {
     outDir: join(process.cwd(), 'dist'),
+    emptyOutDir: true,
   },
+  base: '/Artify/',
 });
